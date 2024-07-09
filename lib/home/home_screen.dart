@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 selectedIndex = index;
                 setState(() {});
               },
-              items: [
+              items: const [
                 BottomNavigationBarItem(
                     icon: ImageIcon(
                       AssetImage('assets/images/icon_quran.png'),
